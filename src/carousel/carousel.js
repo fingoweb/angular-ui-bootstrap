@@ -265,7 +265,7 @@ angular.module('ui.bootstrap.carousel', [])
     controllerAs: 'carousel',
     restrict: 'A',
     templateUrl: function(element, attrs) {
-      return attrs.templateUrl || 'uib/template/carousel/carousel.html';
+      return attrs && attrs.templateUrl ? attrs.templateUrl : 'uib/template/carousel/carousel.html';
     },
     scope: {
       active: '=',
@@ -283,7 +283,7 @@ angular.module('ui.bootstrap.carousel', [])
     restrict: 'A',
     transclude: true,
     templateUrl: function(element, attrs) {
-      return attrs.templateUrl || 'uib/template/carousel/slide.html';
+      return attrs && attrs.templateUrl ? attrs.templateUrl : 'uib/template/carousel/slide.html';
     },
     scope: {
       actual: '=?',
