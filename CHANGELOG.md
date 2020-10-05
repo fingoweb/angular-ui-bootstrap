@@ -1,3 +1,13 @@
+<a name="2.5.4"></a>
+## [2.5.4](https://github.com/angular-ui/bootstrap/compare/2.5.6...2.5.4) (2020-10-05)
+
+
+### Bug Fixes
+
+* corrected condition for templateUrl in carousel/slide directives ([0d0fd0b](https://github.com/angular-ui/bootstrap/commit/0d0fd0b))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/angular-ui/bootstrap/compare/2.4.0...v2.5.0) (2017-01-28)
 
